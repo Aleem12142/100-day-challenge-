@@ -1,0 +1,2 @@
+var myIdealDay = "My ideal day involves: \n1. Waking up early in the morning.\n2. Take a bath and wazu and offer Fajr prayer.\n3. Read Quran for some time and go for a walk and some joging. \n4. Take breakfast and spend some time on coding.\n5. Offer Zuhar prayer  and take some rest. \n6. Spend a few houres on a personal project. \n7. Offer Asar praiyer and go to market to do some grocery shoping. \n8. Offer Maghrib prayer and take my dinner and go for a walk. \n9. Offer Esha prayer. \n10. Read  Quran and go to sleep.";
+console.log(myIdealDay);
