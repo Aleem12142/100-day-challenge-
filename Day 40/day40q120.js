@@ -1,4 +1,6 @@
-var favouriteMovies = [
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const favouriteMovies = [
     "The Shawshank Redemption",
     "The Godfather",
     "The Dark Knight",
@@ -9,7 +11,6 @@ var favouriteMovies = [
     "Pulp Fiction",
     "The Good, the Bad and the Ugly"
 ];
-for (var _i = 0, favouriteMovies_1 = favouriteMovies; _i < favouriteMovies_1.length; _i++) {
-    var movie = favouriteMovies_1[_i];
+for (const movie of favouriteMovies) {
     console.log(movie);
 }
