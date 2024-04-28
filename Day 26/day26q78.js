@@ -1,7 +1,9 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function squareDeclaration(number) {
     return number * number;
 }
-var squareExpression = function (number) {
+let squareExpression = function (number) {
     return number * number;
 };
 console.log(squareDeclaration(7));

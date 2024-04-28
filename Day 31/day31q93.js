@@ -1,5 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function replaceFruit(fruit) {
-    var indexOfBanana = fruit.indexOf("Banana");
+    let indexOfBanana = fruit.indexOf("Banana");
     if (indexOfBanana !== -1) {
         fruit[indexOfBanana] = "Mango";
         console.log("Replaced 'Banana' with 'Mango' .New array:", fruit);
@@ -8,5 +10,5 @@ function replaceFruit(fruit) {
         console.log("'Banana' not found in array.");
     }
 }
-var fruit = ["Apple", "Banana", "Orang", "Graps"];
+let fruit = ["Apple", "Banana", "Orang", "Graps"];
 replaceFruit(fruit);

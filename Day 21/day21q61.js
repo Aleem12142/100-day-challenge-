@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var vehicalType;
 (function (vehicalType) {
     vehicalType[vehicalType["bike"] = 0] = "bike";

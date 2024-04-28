@@ -1,5 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function compoundOperators() {
-    var x = 4;
+    let x = 4;
     console.log("Initialy: x =", x);
     x += 2;
     console.log("After Addition: x =", x);

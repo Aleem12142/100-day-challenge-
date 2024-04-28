@@ -1,5 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function sumOfArray(numbers) {
-    return numbers.reduce(function (accumulator, current) { return accumulator + current; }, 0);
+    return numbers.reduce((accumulator, current) => accumulator + current, 0);
 }
-var numbers = [2, 4, 6, 8, 9, 3];
+let numbers = [2, 4, 6, 8, 9, 3];
 console.log(sumOfArray(numbers));

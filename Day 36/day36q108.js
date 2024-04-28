@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function areStringsIdentical(string1, string2) {
     return string1.toLocaleLowerCase() === string2.toLocaleLowerCase();
 }

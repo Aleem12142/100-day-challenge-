@@ -1,4 +1,6 @@
-var book = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let book = {
     title: 'A Tale Of Two Cities',
     auther: 'Charlse Dickens',
     yearPublished: 1859

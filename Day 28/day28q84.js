@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function replaceSentence(sentence) {
     return sentence.replace(/Adeel/g, "Aleem");
 }

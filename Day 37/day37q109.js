@@ -1,5 +1,7 @@
-var currentTime = new Date();
-var currentHours = currentTime.getHours();
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let currentTime = new Date();
+let currentHours = currentTime.getHours();
 if (currentHours < 12) {
     console.log('Good Morning');
 }

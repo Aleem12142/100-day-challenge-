@@ -1,8 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function getCurrentDateFormatted() {
-    var now = new Date();
-    var day = String(now.getDate()).padStart(2, '0');
-    var month = String(now.getMonth() + 1).padStart(2, '0');
-    var year = now.getFullYear();
-    return "".concat(day, "-").concat(month, "-").concat(year);
+    let now = new Date();
+    let day = String(now.getDate()).padStart(2, '0');
+    let month = String(now.getMonth() + 1).padStart(2, '0');
+    let year = now.getFullYear();
+    return `${day}-${month}-${year}`;
 }
 console.log(getCurrentDateFormatted());

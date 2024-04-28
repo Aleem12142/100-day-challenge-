@@ -1,5 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //Version that passes or shows results
-var alien_colour = 'green';
+let alien_colour = 'green';
 if (alien_colour == 'green') {
     console.log('You just earn 5 points!');
 }

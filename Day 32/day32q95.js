@@ -1,5 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function filterArray(numbers) {
-    return numbers.filter(function (number) { return number > 10; });
+    return numbers.filter(number => number > 10);
 }
-var numbers = [2, 5, 7, 8, 9, 12, 56, 34, 89, 908];
+let numbers = [2, 5, 7, 8, 9, 12, 56, 34, 89, 908];
 console.log(filterArray(numbers));

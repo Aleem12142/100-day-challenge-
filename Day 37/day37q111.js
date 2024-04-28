@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function categorizePerson(age) {
     if (age < 2) {
         return 'Baby';

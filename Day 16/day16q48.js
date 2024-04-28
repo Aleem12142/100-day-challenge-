@@ -1,19 +1,12 @@
-var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
-    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
-        if (ar || !(i in from)) {
-            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
-            ar[i] = from[i];
-        }
-    }
-    return to.concat(ar || Array.prototype.slice.call(from));
-};
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // First Laptop price set
-var laptopPriceSet1 = [14000, 17000, 20000];
+const laptopPriceSet1 = [14000, 17000, 20000];
 // Second Laptop price set
-var laptopPriceSet2 = [13000, 15000, 21000];
+const laptopPriceSet2 = [13000, 15000, 21000];
 // Lets combined above arrays
-var combinedPriceSet = __spreadArray(__spreadArray([], laptopPriceSet1, true), laptopPriceSet2, true);
+const combinedPriceSet = [...laptopPriceSet1, ...laptopPriceSet2];
 // Lets sort above combined array in asending order
-combinedPriceSet.sort(function (a, b) { return a - b; });
+combinedPriceSet.sort((a, b) => a - b);
 // Let print out combined and sorted array
 console.log('Combined and sorted prices of laptops in asending order:', combinedPriceSet);

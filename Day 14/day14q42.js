@@ -1,12 +1,14 @@
-var $magicians = ['Kareem', 'Kaleem', 'Kamran', 'Jabbar'];
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let $magicians = ['Kareem', 'Kaleem', 'Kamran', 'Jabbar'];
 function $show_magicians($magicians) {
-    $magicians.forEach(function (magician) {
+    $magicians.forEach(magician => {
         console.log(magician);
     });
 }
 $show_magicians($magicians);
 function make_greate($magicians) {
-    for (var i = 0; i < $magicians.length; i++) {
+    for (let i = 0; i < $magicians.length; i++) {
         $magicians[i] = $magicians[i] + ' the Greate';
     }
     ;

@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function diceRoll() {
     return Math.floor(Math.random() * 6) + 1;
 }

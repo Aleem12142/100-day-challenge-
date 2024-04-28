@@ -1,4 +1,6 @@
-var age = 26;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let age = 26;
 if (age < 2) {
     console.log('The person is a baby.');
 }

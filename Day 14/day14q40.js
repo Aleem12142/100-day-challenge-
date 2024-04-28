@@ -1,5 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function make_album(artist, title, tracks) {
-    var album = { artist: artist, title: title };
+    let album = { artist, title };
     if (tracks) {
         album.tracks = tracks;
     }

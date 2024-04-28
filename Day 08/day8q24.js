@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //Equalit test with string
 console.log('Testing equality with string:');
 console.log('apple' == 'apple');

@@ -1,6 +1,8 @@
-var magicians = ["Kareem", "Kaleem", "Jabbar", "Kamran", "Rashid"];
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let magicians = ["Kareem", "Kaleem", "Jabbar", "Kamran", "Rashid"];
 function show_magicians(magicians) {
-    magicians.forEach(function (magician) {
+    magicians.forEach(magician => {
         console.log(magician);
     });
 }

@@ -1,6 +1,6 @@
-function $make_shirt(size, messege) {
-    if (size === void 0) { size = 'larg'; }
-    if (messege === void 0) { messege = 'I like coding'; }
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+function $make_shirt(size = 'larg', messege = 'I like coding') {
     console.log('Make a', size, 'sirt with the messege', messege, 'written on it.');
 }
 $make_shirt();

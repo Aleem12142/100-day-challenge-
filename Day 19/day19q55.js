@@ -1,4 +1,6 @@
-var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-var doubleNumbers = numbers.map(function (number) { return number * 2; });
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let doubleNumbers = numbers.map(number => number * 2);
 console.log("Original numbers:", numbers);
 console.log("Double numbers:", doubleNumbers);

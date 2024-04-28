@@ -1,11 +1,13 @@
-var guestss = ['Wahab Ali', 'Abdul Rauf', 'Abid Ali'];
-guestss.forEach(function (guest) {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let guestss = ['Wahab Ali', 'Abdul Rauf', 'Abid Ali'];
+guestss.forEach(guest => {
     console.log(guest, ', would you be my guest on tonuights dinner?');
 });
-var unabletoattend = 'Abdul Rauf';
+let unabletoattend = 'Abdul Rauf';
 console.log(unabletoattend, 'is unable to attend tonights dinner,');
-var newguest = 'Husnain';
+let newguest = 'Husnain';
 guestss[guestss.indexOf(unabletoattend)] = newguest;
-guestss.forEach(function (guest) {
+guestss.forEach(guest => {
     console.log(guest, ', would you join me on tonights dinner?');
 });

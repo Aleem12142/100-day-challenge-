@@ -1,7 +1,9 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function createObjectWithDynamicKey(key, value) {
-    var dynamicObject = {};
+    let dynamicObject = {};
     dynamicObject[key] = value;
     return dynamicObject;
 }
-var userPreference = createObjectWithDynamicKey("theme", "dark");
+let userPreference = createObjectWithDynamicKey("theme", "dark");
 console.log(userPreference);

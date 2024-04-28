@@ -1,6 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function stringConvertion(string) {
-    var capitalString = string.toLocaleUpperCase();
-    var smallString = string.toLocaleLowerCase();
+    let capitalString = string.toLocaleUpperCase();
+    let smallString = string.toLocaleLowerCase();
     console.log("CapitalString: ", capitalString, "smallString: ", smallString);
 }
 stringConvertion("Hello Aleem");

@@ -1,5 +1,6 @@
-function describe_city(city, country) {
-    if (country === void 0) { country = 'Pakistan'; }
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+function describe_city(city, country = 'Pakistan') {
     console.log(city, 'is in', country);
 }
 describe_city('Karachi');

@@ -1,7 +1,9 @@
-var age = 22;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let age = 22;
 age = 20;
 console.log(age);
-var $name = "Aleem";
+const $name = "Aleem";
 try {
     //  The line given below will cause error while compiling.To prevent error, it is commented
     // name = "Ashar"

@@ -1,4 +1,6 @@
-var car = 'subaru';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let car = 'subaru';
 console.log("Is car == 'subaru'? i pridict true.");
 console.log(car == 'subaru');
 console.log("Is car == 'toyota? i pridict false.");

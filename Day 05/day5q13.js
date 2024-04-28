@@ -1,5 +1,6 @@
-var transports = ['Bugatti', 'Audi', 'Rolls-Royce', 'Tesla Model S'];
-for (var _i = 0, transports_1 = transports; _i < transports_1.length; _i++) {
-    var transport = transports_1[_i];
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let transports = ['Bugatti', 'Audi', 'Rolls-Royce', 'Tesla Model S'];
+for (let transport of transports) {
     console.log('I want to own a', transport);
 }

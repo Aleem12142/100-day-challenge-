@@ -1,19 +1,12 @@
-var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
-    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
-        if (ar || !(i in from)) {
-            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
-            ar[i] = from[i];
-        }
-    }
-    return to.concat(ar || Array.prototype.slice.call(from));
-};
-var places = ['Pakistan', 'China', 'Canada', 'Dubi', 'India', 'Afghanistan'];
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let places = ['Pakistan', 'China', 'Canada', 'Dubi', 'India', 'Afghanistan'];
 console.log('Original order:', places);
-console.log('Reverse order:', __spreadArray([], places, true).reverse());
+console.log('Reverse order:', [...places].reverse());
 console.log('Original order:', places);
-console.log('Alphabetical order:', __spreadArray([], places, true).sort());
+console.log('Alphabetical order:', [...places].sort());
 console.log('Original order:', places);
-console.log('Reverse alphabetical order:', __spreadArray([], places, true).sort().reverse());
+console.log('Reverse alphabetical order:', [...places].sort().reverse());
 console.log('Originale order:', places);
 places.reverse();
 console.log('Reverse order:', places);

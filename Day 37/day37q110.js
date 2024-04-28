@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function assignGrade(score) {
     if (score >= 90) {
         return 'A';

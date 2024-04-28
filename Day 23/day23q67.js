@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function addNumberAndString(number, numberInString) {
     return number + Number(numberInString);
 }

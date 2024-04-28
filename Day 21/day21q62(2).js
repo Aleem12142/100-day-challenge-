@@ -1,9 +1,11 @@
-var student3 = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let student3 = {
     name: 'Aleem',
     age: 22,
     classes: ['English', 'Science', 'Typescript']
 };
-var student4 = {
+let student4 = {
     name: 'Ashar',
     age: 21,
     classes: ['English', 'Math', 'History']

@@ -1,4 +1,6 @@
-var smartphone = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let smartphone = {
     make: "Redmi",
     model: "Note 9s",
     specs: {
@@ -7,8 +9,8 @@ var smartphone = {
         batteryLife: "23 hours"
     }
 };
-console.log("Make: ".concat(smartphone.make));
-console.log("Model: ".concat(smartphone.make));
-console.log("Storage: ".concat(smartphone.specs.storage));
-console.log("Display: ".concat(smartphone.specs.display));
-console.log("Battery Life: ".concat(smartphone.specs.batteryLife));
+console.log(`Make: ${smartphone.make}`);
+console.log(`Model: ${smartphone.make}`);
+console.log(`Storage: ${smartphone.specs.storage}`);
+console.log(`Display: ${smartphone.specs.display}`);
+console.log(`Battery Life: ${smartphone.specs.batteryLife}`);

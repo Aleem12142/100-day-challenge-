@@ -1,8 +1,10 @@
-var Circle = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let Circle = {
     kind: "Circle",
     raddious: 8
 };
-var Rectangle = {
+let Rectangle = {
     kind: "Rectangle",
     length: 16,
     width: 19

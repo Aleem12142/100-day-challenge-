@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function checkBithTrue(value1, value2) {
     return value1 && value2;
 }

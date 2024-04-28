@@ -1,6 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 {
-    var blockLet = "visible inside the block";
-    var blockConst = "also only inside the blosk";
+    let blockLet = "visible inside the block";
+    const blockConst = "also only inside the blosk";
     console.log(blockLet);
     console.log(blockConst);
 }
